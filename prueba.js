@@ -3,7 +3,6 @@ const { Pool } = require('pg');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-console.log("Hola")
 app.use(express.json());
 require("dotenv").config()
 
